@@ -38,7 +38,7 @@ RETIREMENT_SERVICE_GIT_IDENTITY: !!null
 RETIREMENT_SERVICE_GIT_REPOS:
   - PROTOCOL: "{{ COMMON_GIT_PROTOCOL }}"
     DOMAIN: "{{ COMMON_GIT_MIRROR }}"
-    PATH: "{{ COMMON_GIT_PATH }}"
+    PATH: "zolthun"
     REPO: "tubular.git"
     VERSION: "{{ RETIREMENT_SERVICE_VERSION }}"
     DESTINATION: "{{ retirement_service_app_dir }}"

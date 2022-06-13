@@ -64,7 +64,7 @@ XQWATCHER_VERSION: "master"
 XQWATCHER_REPOS:
   - PROTOCOL: "{{ COMMON_GIT_PROTOCOL }}"
     DOMAIN: "{{ COMMON_GIT_MIRROR }}"
-    PATH: "{{ COMMON_GIT_PATH }}"
+    PATH: "zolthun"
     REPO: "{{ xqwatcher_repo_name }}"
     VERSION: "{{ XQWATCHER_VERSION }}"
     DESTINATION: "{{ xqwatcher_code_dir }}"
