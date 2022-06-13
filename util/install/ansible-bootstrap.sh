@@ -14,11 +14,11 @@
 set -xe
 
 if [[ -z "${CONFIGURATION_REPO}" ]]; then
-  CONFIGURATION_REPO="https://github.com/edx/configuration.git"
+  CONFIGURATION_REPO="https://github.com/zolthun/configuration.git"
 fi
 
 if [[ -z "${CONFIGURATION_VERSION}" ]]; then
-    CONFIGURATION_VERSION=${OPENEDX_RELEASE-master}
+    CONFIGURATION_VERSION="open-release/lilac.2"
 fi
 
 if [[ -z "${UPGRADE_OS}" ]]; then
@@ -41,7 +41,7 @@ PYTHON_VERSION="3.5"
 ANSIBLE_DIR="/tmp/ansible"
 CONFIGURATION_DIR="/tmp/configuration"
 EDX_PPA_KEY_SERVER="keyserver.ubuntu.com"
-EDX_PPA_KEY_ID="B41E5E3969464050"
+EDX_PPA_KEY_ID="467B942D3A79BD29"
 
 cat << EOF
 ******************************************************************************
