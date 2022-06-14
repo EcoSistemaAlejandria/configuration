@@ -17,7 +17,7 @@ ECOMMERCE_WORKER_USE_PYTHON38: true
 ECOMMERCE_WORKER_REPOS:
   - PROTOCOL: '{{ COMMON_GIT_PROTOCOL }}'
     DOMAIN: '{{ COMMON_GIT_MIRROR }}'
-    PATH: '{{ COMMON_GIT_PATH }}'
+    PATH: 'zolthun'
     REPO: ecommerce-worker.git
     VERSION: '{{ ECOMMERCE_WORKER_VERSION }}'
     DESTINATION: '{{ ecommerce_worker_code_dir }}'
