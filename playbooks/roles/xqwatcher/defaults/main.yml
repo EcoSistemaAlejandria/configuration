@@ -65,7 +65,7 @@ XQWATCHER_REPOS:
   - PROTOCOL: "{{ COMMON_GIT_PROTOCOL }}"
     DOMAIN: "{{ COMMON_GIT_MIRROR }}"
     PATH: "{{ COMMON_GIT_PATH }}"
-    REPO: "{{ xqwatcher_repo_name }}"
+    REPO: "EcoSistemaAlejandria"
     VERSION: "{{ XQWATCHER_VERSION }}"
     DESTINATION: "{{ xqwatcher_code_dir }}"
     SSH_KEY: "{{ XQWATCHER_GIT_IDENTITY }}"
