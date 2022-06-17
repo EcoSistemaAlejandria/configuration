@@ -14,7 +14,7 @@
 set -xe
 
 if [[ -z "${CONFIGURATION_REPO}" ]]; then
-  CONFIGURATION_REPO="https://github.com/zolthun/configuration.git"
+  CONFIGURATION_REPO="https://github.com/EcoSistemaAlejandria/configuration.git"
 fi
 
 if [[ -z "${CONFIGURATION_VERSION}" ]]; then
